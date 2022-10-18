@@ -17,8 +17,6 @@ typedef struct linker
 	int (*func_ptr)(va_list);
 } linker;
 
-/****************** FUNCTIONS ******************/
-
 /* Funtions to print chars and strings */
 int _putchar(char c);
 int print_character(va_list args);
@@ -47,4 +45,4 @@ char *_memcpy(char *dest, char *sc, unsigned int nr);
 int rot13(va_list args);
 int print_reversed(va_list args);
 
-#endif /* MAIN_H */
+#endif 
