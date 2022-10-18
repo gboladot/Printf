@@ -3,7 +3,7 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
-* _printf - a function that prints formouted output to stdout
+* _printf - a function that prints formatted output to stdout
 * @format: the string that contains any format specifier
 * Return: returns the number of printed characters
 */
